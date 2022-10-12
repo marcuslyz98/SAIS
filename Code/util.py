@@ -29,7 +29,7 @@ def set_seed(seed):
         
         
 def myprint(text, file):
-    
+    print(file)
     file = open(file, 'a')
     print(time.strftime("%Y %b %d %a, %H:%M:%S: ", time.localtime()) + text, file=file, flush=True)
     file.close()
